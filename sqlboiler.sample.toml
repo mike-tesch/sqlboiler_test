@@ -1,0 +1,11 @@
+output   = "models"
+wipe     = true
+
+[mssql]
+  dbname  = "sqlboiler_test"
+  host    = "192.168.86.50"
+  port    = 1433
+  user    = "sa"
+  pass    = ""
+  sslmode = "disable"
+  schema  = "dbo"
